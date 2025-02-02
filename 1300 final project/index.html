@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home - Cornell-Philadelphia Bus</title>
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/site.css">
+
+    <!-- Original content created by us for this project using canva -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <header>
+        <div id="header-top">
+        <!-- Original content created by us using canva for this project, template by Rayhan studio -->
+            <picture class="logo"><img src="images/cornell-philadelphia-bus-logo.png" alt="Site logo"></picture>
+            <h1 id="site-title">The Cornell Parents of Greater Philadelphia</h1>
+            <button class="hamburger hidden" id="hamburger-menu">☰</button>
+        </div>
+
+        <!-- Original content created by us for this project -->
+        <picture><img src="images/cornell-imagery.png" alt="Cornell campus imagery" id="cornell-imagery"></picture>
+
+        <p id="slogan">~The Cornell Philadelphia Bus~</p>
+
+        <nav id="drop-down-navigation-menu">
+            <ul id="drop-down-navbar">
+                <li class="first-page"><button id="home-open" class="drop-down-button">Home</button></li>
+                <li><button id="bus-schedule-open" class="drop-down-button">Bus Schedules</button></li>
+                <li><button id="bus-stops-open" class="drop-down-button">Bus Stops</button></li>
+                <li class="last-page"><button id="tickets-open" class="drop-down-button">Tickets</button></li>
+            </ul>
+        </nav>
+
+        <nav id="hamburger-navigation-menu" class="hidden">
+            <ul id="hamburger-navbar">
+                <li class="first-page">
+                  <a href = "index.html">Home</a>
+                </li>
+                <li>
+                    <a href = "bus-schedules.html">Bus Schedules</a>
+                </li>
+                <li>
+                    <a href = "bus-stops.html">Bus Stops</a>
+                </li>
+                <li class="last-page">
+                    <a href = "tickets.html">Tickets</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="home-drop" class="drop-down-menu-popup hidden">
+            <button id="home-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "index.html">Home</a></li>
+                <li class="sub-link"><a href="index.html#about-bus-link">About The Bus</a></li>
+                <li class="sub-link"><a href="index.html#rules-link">Rules & Amenities</a></li>
+                <li class="sub-link"><a href="index.html#faqs-link">FAQs</a></li>
+                <li class="sub-link"><a href="index.html#licensing-link">Licensing</a></li>
+            </ul>
+        </div>
+
+        <div id="bus-schedule-drop" class="drop-down-menu-popup hidden">
+            <button id="bus-schedule-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "bus-schedules.html">Bus Schedules</a></li>
+            </ul>
+        </div>
+
+        <div id="bus-stops-drop" class="drop-down-menu-popup hidden">
+            <button id="bus-stops-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "bus-stops.html">Bus Stops</a></li>
+                <li class="sub-link"><a href="bus-stops.html#general-information">General Information</a></li>
+                <li class="sub-link"><a href="bus-stops.html#galleries">Stop Images</a></li>
+                <li class="sub-link"><a href="bus-stops.html#ithaca-college-info">Ithaca College Stop</a></li>
+            </ul>
+        </div>
+
+        <div id="tickets-drop" class="drop-down-menu-popup hidden">
+            <button id="tickets-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "tickets.html">Tickets</a></li>
+                <li class="sub-link"><a href="tickets.html#order-form-link">Order Form</a></li>
+                <li class="sub-link"><a href="tickets.html#paypal-link">PayPal Information</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Client provided content from old website -->
+        <h2 id="about-bus-link" class="about-bus-text">About The Bus</h2>
+        <!-- Client provided content from old website -->
+        <p class="about-bus-text">___________________________________________________</p>
+            <div class="about-bus-flex">
+                <div class="about-bus-text">
+                    <!-- Client provided content from old website -->
+                    <p>
+                        The Chartered bus between Cornell University and Philadelphia is available for five school breaks as a collaborative effort of Cornell Parents of Greater Philadelphia for transporting students to and from Cornell University in Ithaca, New York and Philadelphia, Pennsylvania. Pooled resources are used to charter a bus specifically for the services outlined on this website. As such, this website is provided as a means to facilitate the organization of this service which is offered for the five breaks during the school year as listed in the Bus Schedule Section.
+                    </p>
+                    <!-- Client provided content from old website -->
+                    <p>
+                        The bus stop locations are:
+                    </p>
+                    <!-- Client provided content from old website -->
+                    <p>
+                        <strong>Cornell</strong>
+                    </p>
+                    <!-- Client provided content from old website -->
+                    <ul>
+                        <li>North Campus (North Cross at Jessup Rd)</li>
+                        <li>West Campus (336 West Ave)</li>
+                    </ul>
+                    <!-- Client provided content from old website -->
+                    <p>
+                        <strong>Philadelphia area</strong>
+                    </p>
+                    <!-- Client provided content from old website -->
+                    <ul>
+                        <li>Allentown Service Plaza (access to Northeast Extension (I-476) of PA Turnpike)</li>
+                        <li>Plymouth Meeting Mall (access to I-476 & PA Turnpike)</li>
+                        <li>Amtrak Train Station with SEPTA public transportation system providing access to University City and PHL Airport</li>
+                        <li>King of Prussia, Penn DOT Park & Ride parking lot  (access to PA Turnpike)</li>
+                    </ul>
+                </div>
+                <div class="bus-image">
+                    <figure>
+                        <img alt="Werner Coach Bus" src="images/werner-coach.jpg">
+                        <cite>Source: <a href="https://www.wernercoach.com/">https://www.wernercoach.com/</a></cite>
+                    </figure>
+                </div>
+            </div>
+        <div id="rules-link" class="rules-amenities-flex">
+            <div class="rules-content">
+                <!-- Client provided content from old website -->
+                <h3>Rules & Conduct</h3>
+                    <ul class="rules-list">
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            By purchasing the ticket, you and your parents/guardians take full responsibility for any risk associated with the trips and agree that the coordinators' role is only to facilitate the trips and they have no responsibility for any harm that may occur to you or other students as a result of the trips. You agree not to take legal action against the coordinators for any harm that may occur to you in association with the trips.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Be at the bus stop 15 minutes before departure for loading. Look for the "Werner Coach" sign on the bus.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            No alcohol, smoking or improper behavior are permitted.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Do not distract the driver.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Do not place heavy objects in the overhead racks.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Before debarking, please clean up the area around your seat, and put all trash into the trash bags provided.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Report ASAP to the student coordinator or parent-coordinators of any suspected activity or unknown person(s) that should not be on the bus.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Passengers may be asked to bring some smaller luggage onto the bus with them in order to preserve space for larger bags of other students. The storage area inside the bus can be enlarged by any free seats used for storing bags. It was never a case that a student wasn't able to take all his luggage even when it was large. The carrier will not turn you back but will try to accommodate to the situation.
+                        </li>
+                        <!-- Client provided content from old website -->
+                        <li class="rulesblock">
+                            Please be aware that on return trips to Cornell, luggage is stored according to your campus location. The Bus Driver will direct you to the correct compartment.
+                        </li>
+                    </ul>
+                    <p>Your safety depends on proper behavior of all students.</p>
+            </div>
+            <div class="amenities">
+                <!-- Client provided content from old website -->
+                <h3>Amenities</h3>
+                <!-- Client provided content from old website -->
+                <ol type="1">
+                    <li>
+                        There is a restroom on the bus.
+                    </li>
+                    <li>
+                        There is public WiFi available on the 54 size buses only.
+                    </li>
+                    <li>
+                        There will be one rest stop for food on each trip.
+                    </li>
+                    <li>
+                        Each student is limited to 2 suitcases of a reasonable size and weight and a carry-on. Please use this recommendation in order to avoid luggage space issues at boarding time.
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div id="faqs-link" class="faq">
+            <!-- Client provided content from old website -->
+            <h2>Frequently Asked Questions (FAQs)</h2>
+                <p class="divider-line">____________________________________________________</p>
+                <p><strong>What is the cost of a trip?</strong></p>
+                <p>The cost of the trip is: $115.00 (round); $65.00 (one-way). There are no additional payment processing fee charges. You may go to the <a href="tickets.html">Tickets</a> page to make a purchase.</p>
+                <p><strong>How long will my trip take?</strong></p>
+                <p>The travel time by bus between Cornell and Philadelphia, PA averages between 4.5 to 5.5 hours, with one rest stop for food on each trip.</p>
+                <p><strong>What do I need in order to board the bus?</strong></p>
+                <p>You only need your Student ID to board the bus. Please check your ticket before boarding the bus by following the link sent to your email by Autoresponder in response to any email that you sent to us. The list of riders is verified on the bus by a trip coordinator.</p>
+                <p><strong>When can I expect to hear back from the Waiting List?</strong></p>
+                <p>Unfortunately, we cannot predict if and when a spot will be released for you following a cancellation. You have no obligation to wait for a cancellation and can ask for a refund from the waiting list at any time. We will not assign a cancelled seat without asking you to accept it.</p>
+                <p><strong>How can I get home from my stop in Philadelphia?</strong></p>
+                <p>Other than getting picked up by a family member or friend, a reliable method of getting home from the city is with the SEPTA public transportation system. <a href="http://www.septa.org">SEPTA</a> can be helpful for using our bus stop at the Amtrak Train Station. The site contains a <a href="http://www.septa.org/maps/pdf/click-map.pdf">map of all SEPTA lines</a> in the city of Philadelphia. A <a href="http://www4.septa.org/welcome/airport.html">connection from PHL Airport</a> is available as well.  There are train stops at each PHL Airport terminal and the ride to Amtrak Train Station takes around 25 minutes with only one stop in between.</p>
+        </div>
+        <div id="licensing-link" class="licensing">
+            <!-- Client provided content from old website -->
+            <h3>Licensing and Related Information</h3>
+            <!-- Client provided content from old website -->
+                <ul>
+                    <li>
+                        The bus company Werner Coach Inc. provides the CERTIFICATE OF LIABILITY INSURANCE to the Transportation Department of Cornell University.
+                    </li>
+                    <li>
+                        Bus companies including Werner Coach make every effort to provide on-time service. None of them can guarantee its departure and arrival times, which may be affected by any number of factors including weather, traffic, or mechanical problems. The Bus Company (including Werner Coach) is not liable for any inconvenience or expense caused as a result of such a delay.
+                    </li>
+                    <li>
+                        Please be advised that refunds will only be granted up to one month before the trip is scheduled. After that, there will be no refunds for cancelled seats after the payment was made to Werner Coach for the bus unless there are students on the Waiting List willing to purchase cancelled seats.
+                    </li>
+                    <li>
+                        PayPal allows for refunds minus their processing fees within 180 days from the payment date. Any refunds after that time will be paid immediately to your PayPal account after providing the associated email address.  Please setup the PayPal account and forward the email to cpbus@cbtcorp.net. Please contact us if your refund is missing.
+                    </li>
+                </ul>
+        </div>
+    </main>
+
+    <footer>
+      <!-- Cited below, citation located on top of the image on the website -->
+      <picture><img src="images/philadelphia-imagery.jpg" alt="Philadelphia imagery" id="philadelphia-imagery"></picture>
+
+      <section id="footer-text">
+          <h4 id="contact-us">Contact Us</h4>
+
+          <h4>Mail</h4>
+
+          <!-- Client provided content -->
+          <p>31 Winter Rd. Holland, PA 18966</p>
+
+          <h4>Staff</h4>
+
+          <!-- Client provided content -->
+          <p>Joe Krzyspiak</p>
+          <p>Cell: 215-327-3996 | Email: cpbus@cbtcorp.net</p>
+
+          <!-- Client provided content -->
+          <p>Joanna E. Krzyspiak</p>
+          <p>Cell: 215-380-6955 | Email: jek44@cornell.edu</p>
+
+          <!-- Citation for above image, located on top of image on the website-->
+          <p>Source: <a href="https://davidbalyeat.com/portfolio-items/liberty-philadelphia/philadelphia-skyline-sunset-night-city-hall-william-pen-high-definition-hd-professional-photography/" id="skyline-citation">David Balyeat Photography</a></p>
+      </section>
+  </footer>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/drop-down-menu.js"></script>
+</body>
+
+</html>

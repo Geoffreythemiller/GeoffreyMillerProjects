@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Tickets - Cornell-Philadelphia Bus</title>
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/site.css">
+
+    <!-- Original content created by us for this project using canva -->
+  <link rel="icon" href="images/favicon.png">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-top">
+        <!-- Original content created by us using canva for this project, template by Rayhan studio -->
+            <picture class="logo"><img src="images/cornell-philadelphia-bus-logo.png" alt="Site logo"></picture>
+            <h1 id="site-title">The Cornell Parents of Greater Philadelphia</h1>
+            <button class="hamburger hidden" id="hamburger-menu">☰</button>
+        </div>
+
+        <!-- Original content created by us for this project -->
+        <picture><img src="images/cornell-imagery.png" alt="Cornell campus imagery" id="cornell-imagery"></picture>
+
+        <p id="slogan">~The Cornell Philadelphia Bus~</p>
+
+        <nav id="drop-down-navigation-menu">
+            <ul id="drop-down-navbar">
+                <li class="first-page"><button id="home-open" class="drop-down-button">Home</button></li>
+                <li><button id="bus-schedule-open" class="drop-down-button">Bus Schedules</button></li>
+                <li><button id="bus-stops-open" class="drop-down-button">Bus Stops</button></li>
+                <li class="last-page"><button id="tickets-open" class="drop-down-button">Tickets</button></li>
+            </ul>
+        </nav>
+
+        <nav id="hamburger-navigation-menu" class="hidden">
+            <ul id="hamburger-navbar">
+                <li class="first-page">
+                  <a href = "index.html">Home</a>
+                </li>
+                <li>
+                    <a href = "bus-schedules.html">Bus Schedules</a>
+                </li>
+                <li>
+                    <a href = "bus-stops.html">Bus Stops</a>
+                </li>
+                <li class="last-page">
+                    <a href = "tickets.html">Tickets</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="home-drop" class="drop-down-menu-popup hidden">
+            <button id="home-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "index.html">Home</a></li>
+                <li class="sub-link"><a href="index.html#about-bus-link">About The Bus</a></li>
+                <li class="sub-link"><a href="index.html#rules-link">Rules & Amenities</a></li>
+                <li class="sub-link"><a href="index.html#faqs-link">FAQs</a></li>
+                <li class="sub-link"><a href="index.html#licensing-link">Licensing</a></li>
+            </ul>
+        </div>
+
+        <div id="bus-schedule-drop" class="drop-down-menu-popup hidden">
+            <button id="bus-schedule-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "bus-schedules.html">Bus Schedules</a></li>
+            </ul>
+        </div>
+
+        <div id="bus-stops-drop" class="drop-down-menu-popup hidden">
+            <button id="bus-stops-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "bus-stops.html">Bus Stops</a></li>
+                <li class="sub-link"><a href="bus-stops.html#general-information">General Information</a></li>
+                <li class="sub-link"><a href="bus-stops.html#galleries">Stop Images</a></li>
+                <li class="sub-link"><a href="bus-stops.html#ithaca-college-info">Ithaca College Stop</a></li>
+            </ul>
+        </div>
+
+        <div id="tickets-drop" class="drop-down-menu-popup hidden">
+            <button id="tickets-close" class="close-button">x</button>
+            <ul class="drop-down-menu-links-list">
+                <li><a href = "tickets.html">Tickets</a></li>
+                <li class="sub-link"><a href="tickets.html#order-form-link">Order Form</a></li>
+                <li class="sub-link"><a href="tickets.html#paypal-link">PayPal Information</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main id="tickets-main">
+        <div class = "main-content">
+            <h1>Tickets</h1>
+                <!--Source: client-provided content-->
+                <p><strong>The cost of trip is: $115.00 (round); $65.00 (one-way). No additional fees are required.</strong></p>
+                <!--Source: Original content, molded from client-provided content-->
+                <p>Please reserve your ticket using the order form below <strong>and</strong> make your payment in the PayPal section below. <strong>There is no seat reservation without the payment.</strong></p>
+            <h2 id="order-form-link">Order Form</h2>
+                <!--Source: Original content, molded from client-provided content-->
+                <p>Please <strong>click on the button below and copy and paste its content into your email.</strong> Please enter your name into the subject area. Send the form to cpbus@cbtcorp.net.</p>
+                <!--Source: client-provided content-->
+                <p>In response to your email you will receive an email (generated immediately by the Autoresponder) that provides directions on how to read the OrderStatus.pdf file (updated daily) with your name on the list. Please notify us ASAP if your name was not placed on the list within 24 hrs from sending your order and making payment.</p>
+                <p><strong>Please check the OrderStatus PDF a day after the payment and again right before the trip. If there is any error in the table, please notify us ASAP.</strong></p>
+                <p>Please remember there is no seat reservation without the payment.</p>
+                <div class = "order-form-link">
+                    <!--NOTE: This is an incorrect link, it should link to an upload of the order form-->
+                    <a href = "http://www.bus.cbtcorp.net/">Order Form</a>
+                </div>
+            <h2 id="paypal-link">PayPal</h2>
+            <figure>
+            <!-- Image source: provided by client-->
+            <img alt = "PayPal verification seal" src="images/paypal_verification_seal.jpeg" >
+            </figure>
+
+                <p>Please follow these steps to make a payment with PayPal:</p>
+                <p>Do not click "Buy Now" unless you have entered your Cornell (or Ithaca College) email below on this page! If this information is not entered, your payment will be refunded.</p>
+                <p>Click “Buy Now” to be transferred to the PayPal secure website. Having a PayPal account is not required to purchase a ticket.</p>
+                <p>Please don't make any payment outside of this page.</p>
+                <!--NOTE TO CLIENT: HERE is where you would put the form to enter your Cornell/Ithaca College email-->
+                <figure>
+                    <!--NOTE: this is a generic PayPal link, the specific link will be filled in by client-->
+                    <a href="https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f226291e3c5f2&mfid=1699988730048_f226291e3c5f2#/checkout/openButton">
+                        <!-- Image source: provided by client-->
+                        <img alt = "PayPal icon with link to payment" src="images/paypal_icon.jpeg" ></a>
+                </figure>
+        </div>
+
+        <aside id="notes-paypal">
+            <h2>Notes</h2>
+            <h3>General</h3>
+                <ol>
+                    <!--Source: client-provided content-->
+                    <li>You can change your bus stop location as needed without notifying us <strong>except</strong> if you want to use the Allentown stop from Philly to Cornell and you didn't select it in your Order Form.</li>
+                    <!--Source: client-provided content-->
+                    <li>Two buses are scheduled for Thanksgiving trip if needed. The second bus will be ordered if we get more payments.</li>
+                    <!--Source: client-provided content-->
+                    <li>It is sufficient to send an Order Form to put you on the wait list. We will notify you once a seat from a cancellation is available to you.</li>
+                    <!--Source: client-provided content-->
+                    <li>When you order a seat on the waiting list no payment is required until we can offer you a seat following a cancellation from another student. This is to avoid a loss of PayPal fees in case of a refund.</li>
+                    <!--Source: Original content, molded from client-provided content-->
+                    <li>What to expect from the Waiting List can be found on our Bus Schedules page. </li>
+                </ol>
+            <h3>PayPal</h3>
+                <ol>
+                    <!--Source: client-provided content-->
+                    <li>Refunds will only be granted up to one month before the trip is scheduled, <strong>unless there are buyers on the Waiting List that your spot can be transferred to.</strong></li>
+                    <!--Source: client-provided content-->
+                    <li>Make sure that the Credit Card owner is aware of the bus trip charge amount and its <strong>PAYPAL *FITNESSTRAC</strong> name on the statement if you are using your parent's card for this payment. (From time to time there is a parent filing a chargeback against the bus payment. It takes a lot of time on both sides to reverse it.)</li>
+                    <!--Source: client-provided content-->
+                    <li>After paying, if you don't get a confirmation email from PayPal then please inform us by sending an email to cpbus@cbtcorp.net.</li>
+                    <!--Source: client-provided content-->
+                    <li>Do not pay for the ride if there are no available seats. PayPal allows for refunds within 180 days from the payment date. Any refunds after that time will be paid immediately to your PayPal account. Please forward the refund confirmation email to cpbus@cbtcorp.net. PayPal refunds are issued ASAP. If you don’t get your refund within two days after the last day of the current round trip date then please contact us.</li>
+                    <!--Source: client-provided content-->
+                    <li>PayPal no longer refunds a fee charged when the original transaction was made. As a result of this change we will refund your original payment minus fees charged by PayPal i.e. minus $.49 and minus 3.49% of the original sum paid.</li>
+                </ol>
+        </aside>
+
+
+    </main>
+
+    <footer>
+        <!-- Cited below, citation located on top of the image on the website -->
+        <picture><img src="images/philadelphia-imagery.jpg" alt="Philadelphia imagery" id="philadelphia-imagery"></picture>
+
+        <section id="footer-text">
+            <h4 id="contact-us">Contact Us</h4>
+
+            <h4>Mail</h4>
+
+            <!-- Client provided content -->
+            <p>31 Winter Rd. Holland, PA 18966</p>
+
+            <h4>Staff</h4>
+
+            <!-- Client provided content -->
+            <p>Joe Krzyspiak</p>
+            <p>Cell: 215-327-3996 | Email: cpbus@cbtcorp.net</p>
+
+            <!-- Client provided content -->
+            <p>Joanna E. Krzyspiak</p>
+            <p>Cell: 215-380-6955 | Email: jek44@cornell.edu</p>
+
+            <!-- Citation for above image, located on top of image on the website-->
+            <p>Source: <a href="https://davidbalyeat.com/portfolio-items/liberty-philadelphia/philadelphia-skyline-sunset-night-city-hall-william-pen-high-definition-hd-professional-photography/" id="skyline-citation">David Balyeat Photography</a></p>
+        </section>
+    </footer>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger-menu.js"></script>
+    <script src="scripts/drop-down-menu.js"></script>
+</body>
+
+</html>
