@@ -30,8 +30,8 @@ Welcome to my GitHub repository! Here, you'll find a collection of projects I've
 - **Data Analysis**: Proficient in creating and interpreting statistical models
 
 ## Contact Me
-- **Email**: geoffreythemiller@gmail.com
-- **LinkedIn**: [Your LinkedIn](your-linkedin-url)
+- **Email**: gom6@cornell.edu
+- **LinkedIn**: [Your LinkedIn](www.linkedin.com/in/geoff-miller-150536251)
 
 Thank you for visiting my portfolio. Feel free to connect with me on LinkedIn or via email!
 
