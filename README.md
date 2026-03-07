@@ -1,37 +1,129 @@
-# Geoffrey Miller's Project Portfolio
+# Geoffrey Miller — Data Science & Machine Learning Portfolio
 
-Welcome to my GitHub repository! Here, you'll find a collection of projects I've worked on as an Information Science student at Cornell University. These projects showcase my skills in Python, R, SQL, and web development.
+![Python](https://img.shields.io/badge/Python-Data%20Science-blue)
+![R](https://img.shields.io/badge/R-Statistics-blue)
+![SQL](https://img.shields.io/badge/SQL-Database-orange)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Modeling-green)
 
-## Projects
+This repository contains a collection of projects demonstrating my experience in **data science, machine learning, statistical modeling, and software engineering**.
 
-### Planetoids Game
-- **Description**: An Asteroids-inspired game developed for Cornell CS 1110. It features bullet physics, collision detection, and animations.
-- **Technologies Used**: Python
-- **Link**: [Planetoids Game](https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/planetoids)
+I studied **Information Science at Cornell University** and currently work as a **Junior Data Analyst building machine learning models, financial analytics systems, and large-scale data pipelines** used for analyzing transactional and behavioral datasets.
 
-### Sports Performance Prediction
-- **Description**: Analyzed performance data from NFL, NBA, MLB, and NHL to create predictive models using Python. This project was part of Cornell INFO 2950.
-- **Technologies Used**: Python, Statistical Analysis
-- **Link**: [Sports Performance Prediction](https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/2950Finalproject.pdf)
+My technical work focuses on:
 
-### College Pathway Analytics
-- **Description**: Utilized R to analyze course selection data to identify patterns that aid in academic planning. A project for Cornell INFO 4100.
-- **Technologies Used**: R, Data Analysis
-- **Link**: [College Pathway Analytics](https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/info4100.finalproject.docx)
+- **Machine Learning and Predictive Modeling**
+- **Data Engineering and Automated Pipelines**
+- **Statistical Analysis of Large Datasets**
+- **Financial Data and Transaction Analytics**
 
-### Cornell-Philadelphia Bus Site Redesign
-- **Description**: Redesigned a responsive, user-friendly website to enhance navigation and user interaction as part of a design course.
-- **Technologies Used**: HTML, CSS, JavaScript
-- **Link**: [Cornell-Philadelphia Bus Site Redesign](https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/1300%20final%20project)
+Technologies frequently used include **Python, R, SQL, DuckDB, and data analysis libraries such as Pandas and NumPy**.
 
-## Skills
-- **Programming Languages**: Python, R, SQL, DuckDB
-- **Web Development**: HTML, CSS, JavaScript
-- **Data Analysis**: Proficient in creating and interpreting statistical models
+---
 
-## Contact Me
-- **Email**: gom6@cornell.edu
-- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/geoff-miller-150536251)
+# Academic Projects
 
-Thank you for visiting my portfolio. Feel free to connect with me on LinkedIn or via email!
+## Planetoids Game
+**Description**
+
+An Asteroids-inspired game developed for Cornell **CS 1110** implementing core game mechanics including physics-based motion, collision detection, and real-time animation systems.
+
+**Technologies**
+
+- Python
+- Object-Oriented Programming
+- Game Physics
+
+**Project Link**
+
+https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/planetoids
+
+---
+
+## Sports Performance Prediction
+**Description**
+
+Built predictive models using sports datasets from multiple professional leagues (**NFL, NBA, MLB, NHL**) to analyze player and team performance metrics.
+
+The project applied regression and classification techniques to explore performance predictors and statistical relationships within large sports datasets.
+
+**Technologies**
+
+- Python
+- Statistical Modeling
+- Data Analysis
+
+**Project Link**
+
+https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/2950Finalproject.pdf
+
+---
+
+## College Pathway Analytics
+**Description**
+
+Used statistical modeling in **R** to analyze course enrollment data and identify trends influencing academic progression and course selection behavior.
+
+**Technologies**
+
+- R
+- Statistical Analysis
+- Data Visualization
+
+**Project Link**
+
+https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/info4100.finalproject.docx
+
+---
+
+## Cornell–Philadelphia Bus Site Redesign
+**Description**
+
+Designed and implemented a responsive web interface focused on improving navigation structure, usability, and accessibility.
+
+**Technologies**
+
+- HTML
+- CSS
+- JavaScript
+- Responsive Web Design
+
+**Project Link**
+
+https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/1300%20final%20project
+
+---
+
+# Technical Skills
+
+### Programming
+- Python
+- R
+- SQL
+- DuckDB
+
+### Data Science & Machine Learning
+- Predictive Modeling
+- Statistical Analysis
+- Feature Engineering
+- Data Cleaning and Transformation
+
+### Data Engineering
+- Data Pipelines
+- Query Optimization
+- Large Dataset Processing
+
+### Web Development
+- HTML
+- CSS
+- JavaScript
+
+---
+
+# Contact
+
+**Email**  
+gom6@cornell.edu
+
+**LinkedIn**  
+https://www.linkedin.com/in/geoff-miller-150536251
 
