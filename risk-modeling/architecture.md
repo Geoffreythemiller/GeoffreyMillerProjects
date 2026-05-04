@@ -1,34 +1,18 @@
-\[Raw Loan Data] 
-
-&#x20;       ↓
-
-\[Data Cleaning \& Normalization]
-
-&#x20;       ↓
-
-\[Feature Engineering]
-
-&#x20;       ↓
-
-\[Token Risk Detection] ─────┐
-
-&#x20;       ↓                  │
-
-\[Vector Similarity Model]  │
-
-&#x20;       ↓                  │
-
-&#x20;       └────→ \[Hybrid Risk Score]
-
-&#x20;                    ↓
-
-&#x20;           \[Decision Engine]
-
-&#x20;                    ↓
-
-&#x20;     \[Approve | Review | Decline]
-
-&#x20;                    ↓
-
-&#x20;         \[Explainability Output]
+[Raw Loan Data] 
+        ↓
+[Data Cleaning & Normalization]
+        ↓
+[Feature Engineering]
+        ↓
+[Token Risk Detection] ─────┐
+        ↓                  │
+[Vector Similarity Model]  │
+        ↓                  │
+        └────→ [Hybrid Risk Score]
+                     ↓
+            [Decision Engine]
+                     ↓
+      [Approve | Review | Decline]
+                     ↓
+          [Explainability Output]
 
