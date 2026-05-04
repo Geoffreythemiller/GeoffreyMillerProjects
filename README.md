@@ -1,129 +1,113 @@
-# Geoffrey Miller — Data Science & Machine Learning Portfolio
+# Geoffrey Miller — Data & Risk Analytics Portfolio
 
-![Python](https://img.shields.io/badge/Python-Data%20Science-blue)
-![R](https://img.shields.io/badge/R-Statistics-blue)
-![SQL](https://img.shields.io/badge/SQL-Database-orange)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Modeling-green)
+Data Analyst specializing in lending, risk modeling, and financial data systems.
 
-This repository contains a collection of projects demonstrating my experience in **data science, machine learning, statistical modeling, and software engineering**.
-
-I studied **Information Science at Cornell University** and currently work as a **Junior Data Analyst building machine learning models, financial analytics systems, and large-scale data pipelines** used for analyzing transactional and behavioral datasets.
-
-My technical work focuses on:
-
-- **Machine Learning and Predictive Modeling**
-- **Data Engineering and Automated Pipelines**
-- **Statistical Analysis of Large Datasets**
-- **Financial Data and Transaction Analytics**
-
-Technologies frequently used include **Python, R, SQL, DuckDB, and data analysis libraries such as Pandas and NumPy**.
+I build end-to-end systems that transform raw transactional data into decision-ready insights, including loan approval models, risk scoring frameworks, and automated reporting pipelines.
 
 ---
 
-# Academic Projects
+## Core Focus
 
-## Planetoids Game
-**Description**
-
-An Asteroids-inspired game developed for Cornell **CS 1110** implementing core game mechanics including physics-based motion, collision detection, and real-time animation systems.
-
-**Technologies**
-
-- Python
-- Object-Oriented Programming
-- Game Physics
-
-**Project Link**
-
-https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/planetoids
+* Risk Modeling — Loan decisioning, transaction risk scoring, default prediction
+* Data Engineering — Scalable pipelines for large financial datasets
+* Analytics — Origination, conversion, and performance analysis
 
 ---
 
-## Sports Performance Prediction
-**Description**
+## Featured Projects
 
-Built predictive models using sports datasets from multiple professional leagues (**NFL, NBA, MLB, NHL**) to analyze player and team performance metrics.
+### [Risk Modeling Systems](./risk-modeling)
 
-The project applied regression and classification techniques to explore performance predictors and statistical relationships within large sports datasets.
+A hybrid risk evaluation framework combining:
 
-**Technologies**
+* Token-based scoring
+* Behavioral rule engines
+* Vector similarity (embeddings)
 
-- Python
-- Statistical Modeling
-- Data Analysis
+Key features:
 
-**Project Link**
-
-https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/2950Finalproject.pdf
-
----
-
-## College Pathway Analytics
-**Description**
-
-Used statistical modeling in **R** to analyze course enrollment data and identify trends influencing academic progression and course selection behavior.
-
-**Technologies**
-
-- R
-- Statistical Analysis
-- Data Visualization
-
-**Project Link**
-
-https://github.com/Geoffreythemiller/GeoffreyMillerProjects/blob/main/info4100.finalproject.docx
+* Explainable risk scoring
+* Decision engine (Approve / Review / Decline)
+* Sample outputs and system architecture
 
 ---
 
-## Cornell–Philadelphia Bus Site Redesign
-**Description**
+## Academic Projects
 
-Designed and implemented a responsive web interface focused on improving navigation structure, usability, and accessibility.
+### [Planetoids Game](./school-projects/planetoids)
 
-**Technologies**
+Asteroids-style game built in Python with:
 
-- HTML
-- CSS
-- JavaScript
-- Responsive Web Design
-
-**Project Link**
-
-https://github.com/Geoffreythemiller/GeoffreyMillerProjects/tree/main/1300%20final%20project
+* Physics-based motion
+* Collision detection
+* Object-oriented design
 
 ---
 
-# Technical Skills
+### [Sports Performance Prediction](./school-projects/2950Finalproject.pdf)
 
-### Programming
-- Python
-- R
-- SQL
-- DuckDB
+Predictive modeling across NFL, NBA, MLB, and NHL datasets.
 
-### Data Science & Machine Learning
-- Predictive Modeling
-- Statistical Analysis
-- Feature Engineering
-- Data Cleaning and Transformation
-
-### Data Engineering
-- Data Pipelines
-- Query Optimization
-- Large Dataset Processing
-
-### Web Development
-- HTML
-- CSS
-- JavaScript
+* Regression and classification models
+* Feature analysis of performance drivers
 
 ---
 
-# Contact
+### [College Pathway Analytics](./school-projects/info4100.finalproject.docx)
 
-**Email**  
-gom6@cornell.edu
+Statistical modeling in R analyzing course enrollment trends and academic progression.
 
-**LinkedIn**  
-https://www.linkedin.com/in/geoff-miller-150536251
+---
+
+### [Bus Site Redesign](./school-projects/cs1300-final-project)
+
+Responsive web interface focused on:
+
+* usability
+* accessibility
+* improved navigation
+
+---
+
+## Tech Stack
+
+**Languages**
+
+* Python
+* R
+* SQL
+* DuckDB
+
+**Data & Machine Learning**
+
+* pandas, NumPy
+* scikit-learn
+* Feature Engineering
+* Statistical Modeling
+
+**Data Engineering**
+
+* Pipeline Development
+* Large Dataset Processing
+* Query Optimization
+
+**Web**
+
+* HTML, CSS, JavaScript
+
+---
+
+## What I'm Building Toward
+
+* Scalable loan decisioning systems
+* Explainable AI for financial risk
+* End-to-end data pipelines (ingestion → modeling → reporting)
+
+---
+
+## Contact
+
+* Email: [geoffreythemiller@gmail.com](mailto:geoffreythemiller@gmail.com)
+* LinkedIn: https://www.linkedin.com/in/geoff-miller-150536251
+
 
