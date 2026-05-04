@@ -1,0 +1,4 @@
+applicant_id,risk_score,category,recommendation
+A001,22,Low Risk,Approve
+A002,68,Debt/Failed Payments,Review
+A003,91,Gambling Activity,Decline
