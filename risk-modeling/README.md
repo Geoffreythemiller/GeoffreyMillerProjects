@@ -1,8 +1,10 @@
 # Risk Modeling Systems
 
-This folder contains a generalized portfolio project focused on financial risk modeling, loan decisioning, and transaction-level risk analysis.
+This folder contains a generalized project focused on financial risk modeling, transaction-level risk analysis, and explainable risk recommendations.
 
-This project is based on common data analytics patterns used in lending and financial services. All examples are sanitized, generalized, and use synthetic data only.
+All examples are sanitized, generalized, and use synthetic data only. It does not contain proprietary company data, internal business rules, production code, or real applicant information.
+
+The goal of this project is to demonstrate how structured data and transaction-level signals can be used to build an explainable risk-scoring framework. The system produces sample recommendations such as Approve, Review, or Decline for demonstration purposes only.
 
 ---
 
