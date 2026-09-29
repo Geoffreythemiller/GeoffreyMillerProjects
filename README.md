@@ -44,7 +44,9 @@ Asteroids-style game built in Python with:
 
 ---
 
-### [Sports Performance Prediction](./school-projects/2950Finalproject.pdf)
+### [Sports Performance Prediction (INFO 2950)]
+
+Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) · [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
 
 Predictive modeling across NFL, NBA, MLB, and NHL datasets.
 
