@@ -1,3 +1,4 @@
 # Scoring CLI uses Python 3.10+ stdlib only (csv, argparse, dataclasses).
 pytest>=8.0,<9
 duckdb>=1.0,<2
+matplotlib>=3.8,<4
