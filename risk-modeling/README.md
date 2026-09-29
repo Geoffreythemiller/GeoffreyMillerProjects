@@ -1,4 +1,5 @@
 # Risk Modeling Systems
+Status: Reference architecture + sample outputs; runnable pipeline in progress.
 
 This folder contains a generalized project focused on financial risk modeling, transaction-level risk analysis, and explainable risk recommendations.
 
