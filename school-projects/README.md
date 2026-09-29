@@ -27,7 +27,7 @@ These projects demonstrate foundational skills in:
 | Project | Course | Folder | Highlights |
 |---------|--------|--------|------------|
 | **Planetoids** | CS 1110 | [planetoids/](./planetoids/) | Runnable Kivy game; OOP, physics, collisions |
-| **Sports performance prediction** | INFO 2950 | [info2950-project/](./info2950-project/) | Multi-league sports modeling; public sports data |
+| **Sports performance prediction** | INFO 2950 | [info2950-project/](./info2950-project/) | Multi-league OLS + bootstrap; report, notebook, synthetic preview figures |
 | **College pathway analytics** | INFO 4100 | [info4100-project/](./info4100-project/) | Enrollment trends, progression patterns (R report) |
 | **Bus site redesign** | INFO 1300 | [cs1300-final-project/](./cs1300-final-project/) | Accessibility-focused static web UI |
 
@@ -37,7 +37,7 @@ These projects demonstrate foundational skills in:
 
 * **Planetoids:** [README & run instructions](./planetoids/README.md) · `pip install -r requirements.txt` then `python __main__.py`
 * **INFO 4100:** [README](./info4100-project/README.md) · [report (Word)](./info4100-project/info4100.finalproject.docx) · [analysis outline](./info4100-project/sample_outputs/analysis-outline.md)
-* **INFO 2950:** [project report (PDF)](./info2950-project/project-report.pdf) · [analysis notebook](./info2950-project/final_analysis.ipynb) · [README](./info2950-project/README.md)
+* **INFO 2950:** [README & synthetic figures](./info2950-project/README.md) · [report (PDF)](./info2950-project/project-report.pdf) · [notebook](./info2950-project/final_analysis.ipynb)
 * **CS 1300:** [README & local preview](./cs1300-final-project/README.md)
 
 ---

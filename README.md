@@ -94,12 +94,13 @@ Key features:
 
 ### Sports Performance Prediction (INFO 2950)
 
-Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) · [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
+**Status:** Complete coursework — **report + notebook**; [README with synthetic preview figures](./school-projects/info2950-project/README.md).
 
-Predictive modeling across NFL, NBA, MLB, and NHL datasets.
+Predictive modeling across NFL, NBA, MLB, and NHL public sports statistics (OLS persistence + bootstrap league comparisons).
 
-* Regression and classification models
-* Feature analysis of performance drivers
+* Multi-league aggregation and EDA in Jupyter
+* Linear regression on first- vs second-half win rates
+* Bootstrap tests for cross-league mean differences
 
 ---
 
