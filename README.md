@@ -1,4 +1,4 @@
-# Geoffrey Miller — Data & Risk Analytics Portfolio
+﻿# Geoffrey Miller â€” Data & Risk Analytics Portfolio
 
 Data Analyst specializing in lending, risk modeling, and financial data systems.
 
@@ -8,15 +8,17 @@ I build end-to-end systems that transform raw transactional data into decision-r
 
 ## Core Focus
 
-* Risk Modeling — Loan decisioning, transaction risk scoring, default prediction
-* Data Engineering — Scalable pipelines for large financial datasets
-* Analytics — Origination, conversion, and performance analysis
+* Risk Modeling â€” Loan decisioning, transaction risk scoring, default prediction
+* Data Engineering â€” Scalable pipelines for large financial datasets
+* Analytics â€” Origination, conversion, and performance analysis
 
 ---
 
 ## Featured Projects
 
 ### [Risk Modeling Systems](./risk-modeling)
+
+**Status:** Reference architecture + sample outputs; runnable pipeline in progress.
 
 A hybrid risk evaluation framework combining:
 
@@ -46,7 +48,7 @@ Asteroids-style game built in Python with:
 
 ### Sports Performance Prediction (INFO 2950)
 
-Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) · [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
+Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) Â· [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
 
 Predictive modeling across NFL, NBA, MLB, and NHL datasets.
 
@@ -73,29 +75,18 @@ Responsive web interface focused on:
 
 ## Tech Stack
 
-**Languages**
+**Demonstrated in this repo**
 
-* Python
-* R
-* SQL
-* DuckDB
+* Python, Jupyter (INFO 2950), pandas/NumPy
+* Regression and classification (INFO 2950), feature engineering and EDA
+* HTML, CSS, JavaScript (CS 1300 bus site)
 
-**Data & Machine Learning**
+**Coursework / building in portfolio**
 
-* pandas, NumPy
-* scikit-learn
-* Feature Engineering
-* Statistical Modeling
-
-**Data Engineering**
-
-* Pipeline Development
-* Large Dataset Processing
-* Query Optimization
-
-**Web**
-
-* HTML, CSS, JavaScript
+* R (INFO 4100 report)
+* SQL, DuckDB (planned risk MVP)
+* scikit-learn (INFO 2950 + risk MVP in progress)
+* Pipeline and query optimization patterns (target for risk showcase)
 
 ---
 
@@ -103,7 +94,7 @@ Responsive web interface focused on:
 
 * Scalable loan decisioning systems
 * Explainable AI for financial risk
-* End-to-end data pipelines (ingestion → modeling → reporting)
+* End-to-end data pipelines (ingestion â†’ modeling â†’ reporting)
 
 ---
 

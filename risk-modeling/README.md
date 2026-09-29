@@ -1,5 +1,5 @@
-# Risk Modeling Systems
-Status: Reference architecture + sample outputs; runnable pipeline in progress.
+﻿# Risk Modeling Systems
+**Status:** Reference architecture + sample outputs; runnable pipeline in progress.
 
 This folder contains a generalized project focused on financial risk modeling, transaction-level risk analysis, and explainable risk recommendations.
 
@@ -83,17 +83,17 @@ Example:
 
 ```text
 Raw Data
-   ↓
+   â†“
 Data Cleaning
-   ↓
+   â†“
 Feature Engineering
-   ↓
+   â†“
 Risk Token Detection
-   ↓
+   â†“
 Vector Similarity Scoring
-   ↓
+   â†“
 Hybrid Risk Score
-   ↓
+   â†“
 Decision Recommendation
-   ↓
+   â†“
 Explainability Output
