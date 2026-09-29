@@ -56,6 +56,30 @@ def format_outcome(outcome: DecisionOutcome) -> str:
     return "\n".join(lines)
 
 
+def outcome_to_row(outcome: DecisionOutcome) -> dict[str, str]:
+    """Flatten a decision for CSV export."""
+    rule_hits = "|".join(outcome.rule_hits)
+    reason_codes = "|".join(r.code for r in outcome.reasons)
+    return {
+        "applicant_id": outcome.applicant_id,
+        "risk_score": str(outcome.score),
+        "decision": outcome.decision,
+        "rule_hits": rule_hits,
+        "reason_codes": reason_codes,
+    }
+
+
+def write_decisions_csv(outcomes: list[DecisionOutcome], output_path: Path) -> None:
+    """Write batch scoring results to UTF-8 CSV."""
+    fieldnames = ["applicant_id", "risk_score", "decision", "rule_hits", "reason_codes"]
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        for outcome in outcomes:
+            writer.writerow(outcome_to_row(outcome))
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Score synthetic applicants with rules, tokens, and reason codes.",
@@ -66,6 +90,13 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=Path("data/synthetic_applicants.csv"),
         help="Path to applicant feature CSV (default: data/synthetic_applicants.csv)",
+    )
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=Path,
+        default=None,
+        help="Optional path to write decisions CSV (applicant_id, risk_score, decision, ...)",
     )
     return parser
 
@@ -81,11 +112,16 @@ def main(argv: list[str] | None = None) -> int:
         print("No applicant rows found.", file=sys.stderr)
         return 1
 
+    outcomes = [score_applicant(features) for features in applicants]
+
     print(f"Scored {len(applicants)} synthetic applicant(s) from {args.input}\n")
-    for features in applicants:
-        outcome = score_applicant(features)
+    for outcome in outcomes:
         print(format_outcome(outcome))
         print()
+
+    if args.output is not None:
+        write_decisions_csv(outcomes, args.output)
+        print(f"Wrote decisions CSV: {args.output}")
     return 0
 
 

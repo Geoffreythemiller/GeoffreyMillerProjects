@@ -18,12 +18,46 @@ Hybrid **rules + token score + reason codes** — no embeddings required for v1.
 cd risk-modeling
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt    # pytest for tests; scoring uses stdlib only
+pip install -r requirements.txt    # pytest + duckdb; scoring uses stdlib only
 python -m src --input data/synthetic_applicants.csv
+python -m src --input data/synthetic_applicants.csv --output sample_outputs/decisions_sample.csv
 pytest tests/ -q
 ```
 
 See [architecture.md](./architecture.md) for how diagram stages map to modules (`src/score.py`, `src/reason_codes.py`, `src/cli.py`).
+
+---
+
+## DuckDB feature layer (synthetic SQL)
+
+`sql/metrics.sql` documents the **`synthetic_applicants.csv`** schema and builds engineered columns (cashflow ratios, rule-aligned flags, cohort rollups). Paths assume you run commands from **`risk-modeling/`**.
+
+**Quick start**
+
+```bash
+cd risk-modeling
+pip install -r requirements.txt
+duckdb -c ".read sql/metrics.sql"                    # prints cohort_summary
+python scripts/build_features.py                     # writes data/engineered_features.csv
+python scripts/build_features.py --output data/my_features.csv
+```
+
+**Schema (CSV columns)**
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `applicant_id` | string | Synthetic applicant key |
+| `avg_monthly_inflow_usd` / `avg_monthly_outflow_usd` | float | Monthly credit/debit averages |
+| `failed_payment_count_90d` / `nsf_event_count_90d` | int | Payment stress counters (90d) |
+| `unique_merchant_count_30d` | int | Merchant breadth (30d) |
+| `high_risk_merchant_hits_90d` | int | Illustrative high-risk merchant matches |
+| `cash_withdrawal_ratio` | float | Cash withdrawal share of outflow |
+| `income_volatility_index` | float | Income stability proxy (0–1) |
+| `days_since_last_overdraft` | int | Recency of overdraft signal |
+| `recurring_income_flag` | int | 1 = recurring payroll-like income |
+| `narrative_tokens` | string | Pipe-separated tokens for token scoring |
+
+Sample CLI output: [`sample_outputs/decisions_sample.csv`](./sample_outputs/decisions_sample.csv).
 
 ---
 

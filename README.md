@@ -6,6 +6,15 @@ I build end-to-end systems that transform raw transactional data into decision-r
 
 ---
 
+## Projects at a glance
+
+| Area | Folder | What to run |
+|------|--------|-------------|
+| **Risk CLI** (synthetic lending demo) | [`risk-modeling/`](./risk-modeling) | `cd risk-modeling && pip install -r requirements.txt && python -m src --input data/synthetic_applicants.csv` |
+| **School projects** | [`school-projects/`](./school-projects) | See per-project READMEs (Planetoids, INFO 2950, CS 1300, INFO 4100) |
+
+---
+
 ## Core Focus
 
 * Risk Modeling — Loan decisioning, transaction risk scoring, default prediction
@@ -90,7 +99,7 @@ Responsive web interface focused on:
 **Coursework / building in portfolio**
 
 * R (INFO 4100 report)
-* SQL, DuckDB (planned risk MVP)
+* SQL, DuckDB (`risk-modeling/sql/metrics.sql`, optional `scripts/build_features.py`)
 * scikit-learn (INFO 2950); synthetic risk CLI in `risk-modeling/` (stdlib scoring + pytest)
 * Pipeline and query optimization patterns (target for risk showcase)
 
