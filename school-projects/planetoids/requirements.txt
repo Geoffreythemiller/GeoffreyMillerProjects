@@ -1,0 +1,3 @@
+# Planetoids (CS 1110) — local run from school-projects/planetoids/
+kivy>=2.3,<3
+numpy>=1.26,<3
