@@ -44,7 +44,7 @@ Asteroids-style game built in Python with:
 
 ---
 
-### [Sports Performance Prediction (INFO 2950)]
+### Sports Performance Prediction (INFO 2950)
 
 Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) · [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
 
