@@ -1,11 +1,29 @@
 ﻿# Risk Modeling Systems
-**Status:** Reference architecture + sample outputs; runnable pipeline in progress.
+
+**Status:** Reference architecture + **runnable synthetic CLI** (rules, token score, reason codes).
 
 This folder contains a generalized project focused on financial risk modeling, transaction-level risk analysis, and explainable risk recommendations.
 
 All examples are sanitized, generalized, and use synthetic data only. It does not contain proprietary company data, internal business rules, production code, or real applicant information.
 
 The goal of this project is to demonstrate how structured data and transaction-level signals can be used to build an explainable risk-scoring framework. The system produces sample recommendations such as Approve, Review, or Decline for demonstration purposes only.
+
+---
+
+## Quick start (synthetic CLI)
+
+Hybrid **rules + token score + reason codes** — no embeddings required for v1.
+
+```bash
+cd risk-modeling
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt    # pytest for tests; scoring uses stdlib only
+python -m src --input data/synthetic_applicants.csv
+pytest tests/ -q
+```
+
+See [architecture.md](./architecture.md) for how diagram stages map to modules (`src/score.py`, `src/reason_codes.py`, `src/cli.py`).
 
 ---
 
@@ -37,6 +55,8 @@ The model combines three approaches:
 3. **Vector Similarity Scoring**
    - Uses embeddings to compare transaction descriptions against known risky behavior categories
    - Helps detect similar terms even when exact keywords are not present
+
+The **runnable v1 CLI** implements rules + tokens; embeddings remain optional in the architecture diagram.
 
 ---
 
@@ -83,17 +103,20 @@ Example:
 
 ```text
 Raw Data
-   â†“
+   ↓
 Data Cleaning
-   â†“
+   ↓
 Feature Engineering
-   â†“
+   ↓
 Risk Token Detection
-   â†“
+   ↓
 Vector Similarity Scoring
-   â†“
+   ↓
 Hybrid Risk Score
-   â†“
+   ↓
 Decision Recommendation
-   â†“
+   ↓
 Explainability Output
+```
+
+Full pipeline diagram and module mapping: **[architecture.md](./architecture.md)**.

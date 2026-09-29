@@ -1,4 +1,4 @@
-﻿# Geoffrey Miller â€” Data & Risk Analytics Portfolio
+# Geoffrey Miller — Data & Risk Analytics Portfolio
 
 Data Analyst specializing in lending, risk modeling, and financial data systems.
 
@@ -8,9 +8,9 @@ I build end-to-end systems that transform raw transactional data into decision-r
 
 ## Core Focus
 
-* Risk Modeling â€” Loan decisioning, transaction risk scoring, default prediction
-* Data Engineering â€” Scalable pipelines for large financial datasets
-* Analytics â€” Origination, conversion, and performance analysis
+* Risk Modeling — Loan decisioning, transaction risk scoring, default prediction
+* Data Engineering — Scalable pipelines for large financial datasets
+* Analytics — Origination, conversion, and performance analysis
 
 ---
 
@@ -18,19 +18,25 @@ I build end-to-end systems that transform raw transactional data into decision-r
 
 ### [Risk Modeling Systems](./risk-modeling)
 
-**Status:** Reference architecture + sample outputs; runnable pipeline in progress.
+**Status:** Reference architecture + **runnable synthetic CLI** (rules, tokens, reason codes).
 
 A hybrid risk evaluation framework combining:
 
 * Token-based scoring
 * Behavioral rule engines
-* Vector similarity (embeddings)
+* Vector similarity (embeddings) — optional v2; v1 CLI runs without embeddings
+
+**Try it (synthetic data):**
+
+```bash
+cd risk-modeling && pip install -r requirements.txt && python -m src --input data/synthetic_applicants.csv
+```
 
 Key features:
 
-* Explainable risk scoring
+* Explainable risk scoring with reason codes
 * Decision engine (Approve / Review / Decline)
-* Sample outputs and system architecture
+* [architecture.md](./risk-modeling/architecture.md) + batch CLI on `data/synthetic_applicants.csv`
 
 ---
 
@@ -48,7 +54,7 @@ Asteroids-style game built in Python with:
 
 ### Sports Performance Prediction (INFO 2950)
 
-Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) Â· [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
+Report + notebook: [PDF](./school-projects/info2950-project/project-report.pdf) · [final_analysis.ipynb](./school-projects/info2950-project/final_analysis.ipynb)
 
 Predictive modeling across NFL, NBA, MLB, and NHL datasets.
 
@@ -85,7 +91,7 @@ Responsive web interface focused on:
 
 * R (INFO 4100 report)
 * SQL, DuckDB (planned risk MVP)
-* scikit-learn (INFO 2950 + risk MVP in progress)
+* scikit-learn (INFO 2950); synthetic risk CLI in `risk-modeling/` (stdlib scoring + pytest)
 * Pipeline and query optimization patterns (target for risk showcase)
 
 ---
@@ -94,7 +100,7 @@ Responsive web interface focused on:
 
 * Scalable loan decisioning systems
 * Explainable AI for financial risk
-* End-to-end data pipelines (ingestion â†’ modeling â†’ reporting)
+* End-to-end data pipelines (ingestion → modeling → reporting)
 
 ---
 
@@ -102,5 +108,4 @@ Responsive web interface focused on:
 
 * Email: [geoffreythemiller@gmail.com](mailto:geoffreythemiller@gmail.com)
 * LinkedIn: https://www.linkedin.com/in/geoff-miller-150536251
-
 

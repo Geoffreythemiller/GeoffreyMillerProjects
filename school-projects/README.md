@@ -1,5 +1,46 @@
 ﻿# School Projects — Cornell University
 
-Report + notebook for INFO 2950: [PDF](./info2950-project/project-report.pdf) · [final_analysis.ipynb](./info2950-project/final_analysis.ipynb)
+This folder contains a selection of academic projects completed as part of my coursework in Information Science at Cornell University.
 
-See also: [Planetoids](./planetoids) · [CS 1300 bus site](./cs1300-final-project) · [INFO 4100 report](./info4100.finalproject.docx)
+These projects demonstrate foundational skills in:
+
+* programming and software design
+* statistical analysis and modeling
+* data science and machine learning
+* user interface and web development
+
+---
+
+## Courses Represented
+
+| Course | Focus |
+|--------|--------|
+| **CS 1110** — Introduction to Computing (Python) | OOP, game loops, 2D graphics |
+| **INFO 1300** — Introductory Design and Programming for the Web | HTML/CSS/JS, responsive UX |
+| **INFO 2950** — Introduction to Data Science | Regression, classification, EDA |
+| **INFO 4100** — Learning Analytics | Statistical modeling in R |
+
+---
+
+## Project index
+
+| Project | Course | Folder | Highlights |
+|---------|--------|--------|------------|
+| **Planetoids** | CS 1110 | [planetoids/](./planetoids/) | Asteroids-style game, physics, collision detection |
+| **Sports performance prediction** | INFO 2950 | [info2950-project/](./info2950-project/) | Multi-league sports modeling; public/synthetic sports data |
+| **College pathway analytics** | INFO 4100 | [info4100.finalproject.docx](./info4100.finalproject.docx) | Enrollment trends, progression patterns |
+| **Bus site redesign** | INFO 1300 | [cs1300-final-project/](./cs1300-final-project/) | Accessibility-focused static web UI |
+
+---
+
+## Quick links
+
+* **INFO 2950:** [project report (PDF)](./info2950-project/project-report.pdf) · [analysis notebook](./info2950-project/final_analysis.ipynb) · [README](./info2950-project/README.md)
+* **Planetoids:** [README & run instructions](./planetoids/README.md)
+* **CS 1300:** [README & local preview](./cs1300-final-project/README.md)
+
+---
+
+## Notes
+
+These projects reflect **academic work** only. They use public or synthetic datasets and contain no employer systems, customer data, or production credentials. For portfolio-grade risk analytics, see [risk-modeling/](../risk-modeling/) in the repository root.
